@@ -23,26 +23,12 @@
 
         ![sm_text](https://i.imgur.com/EApOnTl.png)
 
-## Useful Links
-[Python 3.6.6](https://www.python.org/downloads/release/python-366/) 
 
-[Repo Download: Stable](https://github.com/JakeMakesStuff/DCustomRPC/archive/master.zip) 
+## How to run:
 
-## Discord prerequisites:
-Please make sure that game statuses are turned on:
+`python3 dcustomrpc.py`
 
-![Game Toggle](https://i.imgur.com/V4FWevH.png)
-
-## Setting up DCustomRPC:
-DCustomRPC requires Python 3.6+. If you have anything older installed, you will need to install Python 3.6+ and make sure it is added to the PATH. From here, you can run `py -m pip install -r requirements.txt` (the `py` bit might change to `python3.5`/`python3.6`, try that if you can't get that to work).
-
-## Starting DCustomRPC in the commandline:
-
-In order to check everything is working in the command line, you can run `python3 dcustomrpc.py`.
-
-## Starting DCustomRPC on Windows Boot: 
-
-On Windows to set this to start on boot, simply take the `dcustomrpc.pyw`, right click it, hover over "Send to" then click "Desktop (create shortcut)". Then cut the icon from your desktop, go to `shell:startup` in Windows Explorer and paste it in there.
+To make this start on Windows boot, simply take the `dcustomrpc.py`, right click it, hover over "Send to" then click "Desktop (create shortcut)". Then cut the icon from your desktop, go to `shell:startup` in Windows Explorer and paste it in there.
 
 ## Requirements
 - Pypresence
@@ -56,4 +42,3 @@ To quickly install these, run the command: `python3 -m pip install -r requiremen
 ## Credits
 Originally created by JakeMakesStuff
 
-# Discord-Custom-RPC
