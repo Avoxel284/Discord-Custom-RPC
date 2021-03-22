@@ -38,9 +38,22 @@ DCustomRPC requires Python 3.6+. If you have anything older installed, you will 
 
 ## Starting DCustomRPC in the commandline:
 
-In order to check everything is working in the command line, you can run `py dcustomrpc.pyw`.
+In order to check everything is working in the command line, you can run `python3 dcustomrpc.py`.
 
 ## Starting DCustomRPC on Windows Boot: 
 
 On Windows to set this to start on boot, simply take the `dcustomrpc.pyw`, right click it, hover over "Send to" then click "Desktop (create shortcut)". Then cut the icon from your desktop, go to `shell:startup` in Windows Explorer and paste it in there.
+
+## Requirements
+- Pypresence
+- ruamel.yaml
+- Pillow
+- Pystray
+- Requests
+
+To quickly install these, run the command: `python3 -m pip install -r requirements.txt` (Python3)
+
+## Credits
+Originally created by JakeMakesStuff
+
 # Discord-Custom-RPC
