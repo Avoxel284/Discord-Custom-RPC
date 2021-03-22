@@ -1,21 +1,9 @@
-[![Discord](https://img.shields.io/discord/459760634024820736.svg)](https://discord.gg/gx5xc5j)
-[![Build Status](https://travis-ci.org/JakeMakesStuff/DCustomRPC.svg?branch=master)](https://travis-ci.org/JakeMakesStuff/DCustomRPC)
-
-# DCustomRPC: The Rewrite!
-
-**The icon used for this project is [here](https://www.shareicon.net/logo-website-discord-887435).**
-
-DCustomRPC is a custom rich presence client that you (you right there, yes you) can customize.
-
-![intro_img](https://i.imgur.com/8Pf5HjT.png)
+# Custom Discord RPC
 
 ## Setting up the config:
-The config should be fairly easy to setup:
-1. Firstly go to Discord Developers (https://discordapp.com/developers/applications/) and sign in.
-2. From here, click the "New App" button and enter a "App Name". This will show as what you are playing. "App Description" and "App Icon" do not matter for rich presence.
-3. After this, you should be on the application page. Scroll down and click "Enable Rich Presence" and then "Save Changes".
-4. After you have done this, you can copy the "Client ID" (under "App Details") and replace the client_id already in the config file.
-5. To setup the game list, we will need to seperate each of the games by a "-" with the spacing from the config for the dashes and the remaining keys. Each game can contain the following:
+1. Create a new Discord application
+2. Copy `Client ID` and paste into config.yaml `client_id`
+3. To setup the game list, we will need to seperate each of the games by a "-" with the spacing from the config for the dashes and the remaining keys. Each game can contain the following:
     - `details` - This is the shorter description for the game:
 
         ![details](https://i.imgur.com/9Z7OdfI.png)
