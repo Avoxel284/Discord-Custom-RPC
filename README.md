@@ -26,7 +26,7 @@
 
 ## How to run:
 
-`python3 dcustomrpc.py`
+`python3 rpc.py`
 
 To make this start on Windows boot, simply take the `dcustomrpc.py`, right click it, hover over "Send to" then click "Desktop (create shortcut)". Then cut the icon from your desktop, go to `shell:startup` in Windows Explorer and paste it in there.
 
