@@ -1,20 +1,5 @@
-# -----------------
-# DCustomRPC Config
-# -----------------
-# Please read the README.md before asking for support.
+client_id: "760396901312102422"
 
-client_id: 788567143558021162
-# The client ID of the application you made on the Discord Developers page.
-
-game_cycle:
-
-  time_until_cycle: 10
-  # The time until the game cycles.
-
-  games:
-    -
-      large_image: far
-      details: finder (far+tinder ngl)
-      
-      
-  # The list of games that it will cycle through.
+rpc:
+  large_image: mc
+  state: Playing on Graphic SMP
